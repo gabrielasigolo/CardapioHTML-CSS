@@ -1,0 +1,117 @@
+@charset "UTF-8";
+@font-face {
+    font-family: 'TitleFont';
+    src: url(/fonts/Allison-Regular.ttf);
+}
+@font-face {
+    font-family: 'subtitle';
+    src: url(/fonts/YanoneKaffeesatz-Bold.ttf);
+}
+@font-face {
+    font-family: 'subtitle2';
+    src: url(/fonts/Farsan-Regular.ttf);
+}
+
+body{
+    background-color:#F5F5F5;
+    
+}
+
+.header{
+    font-family: 'TitleFont';
+    text-align: center;
+    color: #F5F5F5;
+    background-color: #B76A40;
+    font-size: 50px;
+    padding: 20px 30px;
+}
+
+.Subtitle{
+    font-family: 'subtitle';
+    text-align: center;
+    font-size: 12mm;
+}
+
+.image-subtitle{
+    font-family: 'subtitle';
+    font-size: 30px;
+    text-indent: 2px;
+    margin-bottom: 10px;
+}
+
+.card-feijoada{
+    background-color: navajowhite;
+    width: 990px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+}
+.card-frango{
+    background-color: navajowhite;
+    width: 990px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+}
+.card-parmegiana{
+    background-color: navajowhite;
+    width: 990px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+}
+.card-macarrao{
+    background-color: navajowhite;
+    width: 990px;
+    padding: 20px;
+    border-radius: 20px;
+    margin: 20px auto;
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+}
+
+.payment-subtitle{
+    font-family: 'subtitle2';
+    font-size: 30px;
+    text-indent: 40px;
+}
+
+.personal-subtitle{
+    font-family: 'subtitle2';
+    font-size: 30px;
+    text-align: right;
+}
+
+#feijoada-image{
+    width: 354px;
+    height: 209px;
+    
+}
+
+footer{
+    text-align: center;
+    background-color: #B76A40;
+    padding: 4px;
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+    font-size: 15px;
+}
+
+button{
+    padding: 10px 20px;
+    border-radius: 5px;
+    font-family: 'subtitle';
+    font-size: 20px;
+    background-color: tomato;
+    float: right;
+    cursor: pointer;
+}
+
+img{
+    border-radius: 20px;
+}
+
+

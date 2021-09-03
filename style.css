@@ -11,6 +11,10 @@
     font-family: 'subtitle2';
     src: url(/fonts/Farsan-Regular.ttf);
 }
+@font-face {
+    font-family: 'card-content';
+    src: url(/fonts/LibreBaskerville-Regular.ttf);
+}
 
 body{
     background-color:#F5F5F5;
@@ -59,7 +63,7 @@ body{
 }
 
 .card-feijoada p{
-    float: right;
+    float: left;
 }
 
 .card-feijoada::after, .card-feijoada::before {
@@ -133,7 +137,7 @@ button{
     font-size: 20px;
     background-color: tomato;
     float: right;
-    cursor: pointer;
+    cursor: 50px;
 }
 
 img{

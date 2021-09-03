@@ -14,7 +14,8 @@
 
 body{
     background-color:#F5F5F5;
-    
+    margin: 0;
+    padding: 0;    
 }
 
 .header{
@@ -39,14 +40,39 @@ body{
     margin-bottom: 10px;
 }
 
+.cards h1{
+    text-align: center;
+}
+
 .card-feijoada{
     background-color: navajowhite;
-    width: 990px;
+    max-width: 960px;
+    margin: 0 auto;  
     padding: 20px;
     border-radius: 20px;
     margin: 20px auto;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
+    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);      
 }
+
+.card-feijoada img{
+    float: left;
+}
+
+.card-feijoada p{
+    float: right;
+}
+
+.card-feijoada::after, .card-feijoada::before {
+    content: "";
+    display: table;
+    clear: both;
+}
+
+.card-feijoada a{
+    margin-bottom: 60px;
+    
+}
+
 .card-frango{
     background-color: navajowhite;
     width: 990px;

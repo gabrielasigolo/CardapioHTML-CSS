@@ -7,10 +7,7 @@
     font-family: 'subtitle';
     src: url(/fonts/YanoneKaffeesatz-Bold.ttf);
 }
-@font-face {
-    font-family: 'subtitle2';
-    src: url(/fonts/Farsan-Regular.ttf);
-}
+
 @font-face {
     font-family: 'card-content';
     src: url(/fonts/LibreBaskerville-Regular.ttf);
@@ -37,87 +34,44 @@ body{
     font-size: 12mm;
 }
 
-.image-subtitle{
-    font-family: 'subtitle';
-    font-size: 30px;
-    text-indent: 2px;
-    margin-bottom: 10px;
-}
-
 .cards h1{
     text-align: center;
 }
 
 .card-feijoada{
     background-color: navajowhite;
-    max-width: 960px;
+    width: 600px;
     margin: 0 auto;  
-    padding: 20px;
+    padding: 5px 20px;
     border-radius: 20px;
     margin: 20px auto;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);      
 }
 
-.card-feijoada img{
-    float: left;
-}
-
-.card-feijoada p{
-    float: left;
-}
-
-.card-feijoada::after, .card-feijoada::before {
-    content: "";
-    display: table;
-    clear: both;
-}
-
-.card-feijoada a{
-    margin-bottom: 60px;
-    
-}
 
 .card-frango{
     background-color: navajowhite;
-    width: 990px;
-    padding: 20px;
+    width: 600px;
+    padding: 5px 20px;
     border-radius: 20px;
     margin: 20px auto;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
 }
 .card-parmegiana{
     background-color: navajowhite;
-    width: 990px;
-    padding: 20px;
+    width: 600px;
+    padding: 5px 20px;
     border-radius: 20px;
     margin: 20px auto;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
 }
 .card-macarrao{
     background-color: navajowhite;
-    width: 990px;
-    padding: 20px;
+    width: 600px;
+    padding: 5px 20px;
     border-radius: 20px;
     margin: 20px auto;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
-}
-
-.payment-subtitle{
-    font-family: 'subtitle2';
-    font-size: 30px;
-    text-indent: 40px;
-}
-
-.personal-subtitle{
-    font-family: 'subtitle2';
-    font-size: 30px;
-    text-align: right;
-}
-
-#feijoada-image{
-    width: 354px;
-    height: 209px;
-    
 }
 
 footer{
@@ -137,11 +91,28 @@ button{
     font-size: 20px;
     background-color: tomato;
     float: right;
-    cursor: 50px;
+    cursor: pointer;
 }
 
 img{
     border-radius: 20px;
+}
+
+#header-feijoada{
+    font-family: 'subtitle';
+    font-size: 20px;
+}
+#header-frango{
+    font-family: 'subtitle';
+    font-size: 20px;
+}
+#header-parmegiana{
+    font-family: 'subtitle';
+    font-size: 20px;
+}
+#header-macarrao{
+    font-family: 'subtitle';
+    font-size: 20px;
 }
 
 

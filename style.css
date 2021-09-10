@@ -38,41 +38,17 @@ body{
     text-align: center;
 }
 
-.card-feijoada{
+
+#card-feijoada, #card-frango, #card-parmegiana, #card-macarrao{
     background-color: navajowhite;
     width: 600px;
-    margin: 0 auto;  
-    padding: 5px 20px;
+    padding-top: 5px; 
+    padding: 30px;
     border-radius: 20px;
     margin: 20px auto;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);      
 }
 
-
-.card-frango{
-    background-color: navajowhite;
-    width: 600px;
-    padding: 5px 20px;
-    border-radius: 20px;
-    margin: 20px auto;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
-}
-.card-parmegiana{
-    background-color: navajowhite;
-    width: 600px;
-    padding: 5px 20px;
-    border-radius: 20px;
-    margin: 20px auto;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
-}
-.card-macarrao{
-    background-color: navajowhite;
-    width: 600px;
-    padding: 5px 20px;
-    border-radius: 20px;
-    margin: 20px auto;
-    box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);
-}
 
 footer{
     text-align: center;
@@ -94,25 +70,24 @@ button{
     cursor: pointer;
 }
 
-img{
+.cards img{
     border-radius: 20px;
+    display: block;
+    margin: 0 auto;
+    width: 400px;
 }
 
-#header-feijoada{
+.cards h1{
+    font-size: 30px;
+    padding-top: 5px;
     font-family: 'subtitle';
-    font-size: 20px;
+    margin-top: 5px;
 }
-#header-frango{
-    font-family: 'subtitle';
-    font-size: 20px;
-}
-#header-parmegiana{
-    font-family: 'subtitle';
-    font-size: 20px;
-}
-#header-macarrao{
-    font-family: 'subtitle';
-    font-size: 20px;
+
+.card-content{
+    font-family: 'card-content';
+    font-size: 15px;
+    text-align: justify;
 }
 
 

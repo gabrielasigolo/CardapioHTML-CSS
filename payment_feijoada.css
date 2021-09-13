@@ -14,6 +14,45 @@ body{
     padding: 0;    
 }
 
+.card-title{
+    font-size: 30px; 
+    font-family: 'subtitle2';
+    margin: 0;
+    margin-bottom: 5px;
+}
+
+.card-payment{
+    position: absolute;
+    width: 190px;
+    height: 69.38px;
+    left: 87px;
+    top: 295px;
+}
+
+.card-title{
+    font-family: 'subtitle2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 40px;
+    line-height: 79px;
+}
+
+.card-subtitle{
+    font-family: 'subtitle2';
+    font-style: normal;
+    font-weight: bold;
+    font-size: 39px;
+    line-height: 58px;
+    width: 141px;
+    height: 58px;
+    left: 103px;
+    margin-top: 10px;
+}
+
+.side-dish{
+    top: 80px;
+}
+
 .header{
     font-family: 'TitleFont';
     text-align: center;
@@ -23,17 +62,6 @@ body{
     padding: 20px 30px;
 }
 
-.payment-subtitle{
-    font-family: 'subtitle2';
-    font-size: 30px;
-    text-indent: 40px;
-}
-
-.personal-subtitle{
-    font-family: 'subtitle2';
-    font-size: 30px;
-    text-align: right;
-}
 
 footer{
     text-align: center;
@@ -45,35 +73,8 @@ footer{
     font-size: 15px;
 }
 
-button{
-    padding: 10px 20px;
-    border-radius: 5px;
-    font-family: 'subtitle';
-    font-size: 20px;
-    background-color: tomato;
-    float: right;
-    cursor: pointer;
-}
-
 img{
     border-radius: 20px;
-}
-
-#header-feijoada{
-    font-family: 'subtitle';
-    font-size: 20px;
-}
-#header-frango{
-    font-family: 'subtitle';
-    font-size: 20px;
-}
-#header-parmegiana{
-    font-family: 'subtitle';
-    font-size: 20px;
-}
-#header-macarrao{
-    font-family: 'subtitle';
-    font-size: 20px;
 }
 
 

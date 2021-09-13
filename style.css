@@ -45,7 +45,7 @@ body{
     padding-top: 5px; 
     padding: 30px;
     border-radius: 20px;
-    margin: 20px auto;
+    margin: 60px auto;
     box-shadow: 10px 10px 10px rgba(0, 0, 0, 0.384);      
 }
 
@@ -60,13 +60,12 @@ footer{
     font-size: 15px;
 }
 
-button{
+.button-order{
     padding: 10px 20px;
     border-radius: 5px;
     font-family: 'subtitle';
     font-size: 20px;
     background-color: tomato;
-    float: right;
     cursor: pointer;
 }
 
@@ -89,5 +88,7 @@ button{
     font-size: 15px;
     text-align: justify;
 }
+
+
 
 

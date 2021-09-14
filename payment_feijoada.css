@@ -27,6 +27,13 @@ body{
     height: 69.38px;
     left: 87px;
     top: 295px;
+    
+}
+
+#side-dish-title{
+    font-family: 'subtitle2';
+    font-size: 48px;
+    margin-top: 10px;
 }
 
 .card-title{

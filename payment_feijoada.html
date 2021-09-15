@@ -12,14 +12,35 @@
       <h1>Payment</h1>
     </header>
 
-    <section>
-    <article class="card-payment">
-      <header>
-        <h2 class="card-title">Feijoada</h2>
-        <img src="/images/feijoada.jpg" />
-      </header>
-    </article>
+    <section class="card-payment">
+      <div class="card-content">
+          <h2 id="card-title">Feijoada</h2>
+          <img src="/images/feijoada.jpg" id="img-feijoada">
+      </div>
+      <div class="personal-info">
+        <h3 class="card-subtitle">Personal information</h3>
+      </div>
 
-    <footer>Contact us: (11) 2348-9281</footer>
+      <form>
+        <fieldset class="form-group-info">
+          <div class="field">
+            <label for="firstName">Nome:</label>
+            <input class="form-input" type="text" id="firstName" name="firstName" />
+        </div>
+
+        <div class="field">
+            <label for="lastName">Sobrenome:</label>
+            <input class="form-input" type="text" id="lastName" />
+        </div>
+
+        <div class="field">
+            <label for="email">Email:</label>
+            <input class="form-input" type="email" id="email" />
+        </div>
+      </fieldset>
+      </form>
+    </section>
+
+    <!-- <footer>Contact us: (11) 2348-9281</footer> -->
   </body>
 </html>

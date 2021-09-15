@@ -22,18 +22,11 @@ body{
 }
 
 .card-payment{
-    position: absolute;
     width: 190px;
     height: 69.38px;
-    left: 87px;
     top: 295px;
+    align-items: center;
     
-}
-
-#side-dish-title{
-    font-family: 'subtitle2';
-    font-size: 48px;
-    margin-top: 10px;
 }
 
 .card-title{
@@ -42,22 +35,6 @@ body{
     font-weight: bold;
     font-size: 40px;
     line-height: 79px;
-}
-
-.card-subtitle{
-    font-family: 'subtitle2';
-    font-style: normal;
-    font-weight: bold;
-    font-size: 39px;
-    line-height: 58px;
-    width: 141px;
-    height: 58px;
-    left: 103px;
-    margin-top: 10px;
-}
-
-.side-dish{
-    top: 80px;
 }
 
 .header{

@@ -7,11 +7,14 @@
     font-family: 'subtitle2';
     src: url(/fonts/Farsan-Regular.ttf);
 }
+@font-face {
+    font-family: 'card-content';
+    src: url(/fonts/LibreBaskerville-Regular.ttf);
+}
 
 body{
     background-color:#F5F5F5;
-    margin: 0;
-    padding: 0;    
+    margin-bottom: 200px;    
 }
 *{
     margin: 0;
@@ -45,10 +48,24 @@ body{
     padding: 20px 5px;
 }
 
+
 fieldset{
     border: 0;
     background-color: navajowhite;
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+}
+
+.form-group-info .checkbox{
+    color: #010102; 
+    font-size: 15px; 
+    margin-left: 5px;
+    font-family: 'card-content';
+}
+
+.checkbox .side-dish{
+    width: 20px;
+    height: 20px;
+    margin-top: 4px;
 }
 
 .field input[type="text"], .field input[type="email"]{
@@ -58,14 +75,68 @@ fieldset{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
+.radiobox input[type="radio"] {
+    margin-top: -1px;
+    vertical-align: middle;
+}
+
+.container-price{
+    width: 360px;
+    height: 238px;
+    margin: auto;
+    margin-top: 20px;
+    border: 0;
+    background-color: navajowhite;
+    box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
+    font-family: 'subtitle2';
+}
+
+#icon-pay{
+    width: 50px;
+    height: 50px;
+    border-radius: 0;
+}
+
+.container-price p {
+    font-size: 20px;
+}
+
+.container-price button{
+    width: 224px;
+    height: 38px;
+    background: #000000;
+    border: 1px solid #000000;
+    box-sizing: border-box;
+    box-shadow: 2px 4px 4px rgba(0, 0, 0, 0.25);
+    border-radius: 3px;
+    color: #F5F5F5;
+    font-family: 'subtitle2';
+    font-style: normal;
+    font-weight: 800;
+    font-size: 18px;
+    line-height: 25px;
+    cursor: pointer;
+}
+
+.radiobox{
+    font-family: 'card-content';
+    font-size: 15px; 
+    margin-left: 5px;
+}
+
 .field{
     margin: 5px;
     
 }
 
-fieldset.form-group-info .field{
-    float: left;
-    margin-right: 1em;
+footer img{
+    width: 40px;
+}
+
+footer ul li{
+    list-style-type: none;
+    display: inline-block;
+    margin-right: 10px;
 }
 
 #img-feijoada{
@@ -79,17 +150,13 @@ fieldset.form-group-info .field{
     margin-bottom: 8px;
 }
 
-.card-content{
-    margin: auto;
-}
-
-
 footer{
     text-align: center;
     background-color: #B76A40;
     padding: 4px;
     position: fixed;
     width: 100%;
+    height: 100px;
     bottom: 0;
     font-size: 15px;
 }

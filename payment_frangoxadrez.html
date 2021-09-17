@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="/payment_frangoxadrez.css" />
+    <title>Kung Pao Chicken Payment</title>
+  </head>
+  <body>
+    <header class="header">
+      <h1>Payment</h1>
+    </header>
+
+    <section class="card-payment">
+      <div class="card-content">
+          <h2 id="card-title">Kung Pao Chicken</h2>
+          <img src="/images/frangoxadrez.jpg" id="img-feijoada">
+      </div>
+      <div class="personal-info">
+        <h3 class="card-subtitle">Personal information</h3>
+      </div>
+
+      <form>
+        <fieldset class="form-group-info">
+          <div class="field">
+            <label for="firstName">Name:</label>
+            <input class="form-input" type="text" id="firstName" name="firstName" />
+        </div>
+
+        <div class="field">
+          <label for="email">Email:</label>
+          <input class="form-input" type="email" id="email" />
+        </div>
+
+        <div class="field">
+          <label for="field">Telephone:</label>
+          <input class="form-input" type="email" id="email" />
+        </div>
+
+      </fieldset>
+
+      <div class="side-dish-info">
+        <h3 class="card-subtitle">Side Dish</h3>
+      </div>
+      <fieldset class="form-group-info">
+      <div class="checkbox">
+        <label for="side-dish1" class="label-text">
+          <input class="side-dish" type="checkbox" name="side-dish" value="Crumbs"/>
+          <span>Chup Suey Rice</span>
+        </label><br>
+        <label for="side-dish2" class="label-text">
+          <input class="side-dish" type="checkbox" name="side-dish" value="White-Rice"/>
+          <span>Peanut</span>
+        </label><br>
+        <label for="side-dish3" class="label-text">
+          <input class="side-dish" type="checkbox" name="side-dish" value="Kale"/>
+          <span>Colored rice</span>
+        </label><br>
+        <label for="side-dish4" class="label-text">
+          <input class="side-dish" type="checkbox" name="side-dish" value="Crackling"/>
+          <span>Yakimeshi</span>
+        </label><br>
+        <label for="side-dish5" class="label-text">
+          <input class="side-dish" type="checkbox" name="side-dish" value="Orange"/>
+          <span>Fried Rice</span>
+        </label>
+      </div>
+    </fieldset>
+
+    <h3 class="card-subtitle">Payment method</h3>
+    <fieldset class="form-group-info">
+      <div class="radiobox">
+      <label> 
+          <input type="radio" name="payment">
+          <span>Credit card</span><br>
+      </label>
+      <label> 
+          <input type="radio" name="payment" >
+          <span>Debit card</span><br>
+      </label>
+      <label> 
+          <input type="radio" name="payment">
+          <span>Bank slip</span>
+      </label>
+      </div>
+    </fieldset>
+
+    <div class="container-price">
+      <h2>Checkout</h2>
+      <img src="/images/carrinho.svg" id="icon-pay">
+      <p>Subtotal: R$ 45,00<br>
+        Delivery fee: R$ 6,00 <br>
+        Total: R$ 51,00</p>
+        <button>ORDER NOW!</button>
+    </div>
+
+      </form>
+    </section>
+
+    <footer>
+      <ul>
+        <li><img src="/images/facebook.ico"></li>
+        <li><img src="/images/wpp.ico"></li>
+        <li><img src="/images/instagram.ico"></li>
+      </ul>
+
+      <a href="/feedback.html"><button class="feedback-btn">Give us your feedback!</button></a> 
+
+    </footer>
+  </body>
+</html>

@@ -11,6 +11,10 @@
     font-family: 'card-content';
     src: url(/fonts/LibreBaskerville-Regular.ttf);
 }
+@font-face {
+    font-family: 'info-content';
+    src: url(/fonts/Quicksand-Medium.ttf);
+}
 
 body{
     background-color:#F5F5F5;
@@ -45,7 +49,11 @@ body{
     margin-top: 2px;
     margin-left: 500px;
     margin-right: 500px;
-    padding: 20px 5px;
+    padding-left: 20px;
+    padding-right: 20px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-family: 'info-content';
 }
 
 
@@ -79,7 +87,9 @@ fieldset{
     display: flex;
     flex-direction: column;
     width: 200px;
+    margin: auto;
 }
+
 
 .radiobox input[type="radio"] {
     margin-top: -1px;

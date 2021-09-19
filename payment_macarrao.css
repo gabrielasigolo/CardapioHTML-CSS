@@ -63,6 +63,22 @@ body{
     font-family: 'info-content';
 }
 
+.acomp2 label{
+    margin-left: 6px;
+}
+
+.acomp3 label{
+    margin-left: 14px;
+}
+
+.acomp4 label{
+    margin-right: 50px;
+}
+
+.acomp5 label{
+    margin-right: 18px;
+}
+
 
 fieldset{
     border: 0;
@@ -74,7 +90,7 @@ fieldset{
     color: #010102; 
     font-size: 15px; 
     margin-left: 5px;
-    font-family: 'card-content';
+    font-family: 'info-content';
 }
 
 .checkbox .side-dish{
@@ -134,9 +150,10 @@ fieldset{
 }
 
 .radiobox{
-    font-family: 'card-content';
-    font-size: 15px; 
-    margin-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
 }
 
 .field{

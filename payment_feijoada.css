@@ -67,13 +67,46 @@ fieldset{
     color: #010102; 
     font-size: 15px; 
     margin-left: 5px;
-    font-family: 'card-content';
+    font-family: 'info-content';
 }
 
 .checkbox .side-dish{
     width: 20px;
     height: 20px;
     margin-top: 4px;
+}
+
+.acomp1{
+    margin-right: 4px;
+}
+
+.radiobox{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    font-family: 'info-content';
+}
+
+.acomp1 input{
+    margin-left: 5px;
+}
+
+.acomp2 input{
+    margin-left: 20px;
+}
+
+.acomp3 label{
+    margin-right: 25px;
+}
+
+.acomp4 label{
+    margin-right: 25px;
+    margin-left: 32px;
+}
+
+.acomp5 label{
+    margin-right: 5px;
 }
 
 .field input[type="text"], .field input[type="email"]{
@@ -83,17 +116,9 @@ fieldset{
     box-shadow: 2px 2px 2px rgba(0, 0, 0, 0.2);
 }
 
-.col{
-    display: flex;
-    flex-direction: column;
-    width: 200px;
-    margin: auto;
-}
-
 
 .radiobox input[type="radio"] {
     margin-top: -1px;
-    vertical-align: left;
 }
 
 .container-price{
@@ -135,9 +160,8 @@ fieldset{
 }
 
 .radiobox{
-    font-family: 'card-content';
+    font-family: 'info-content';
     font-size: 15px; 
-    margin-left: 5px;
 }
 
 .field{
@@ -148,6 +172,13 @@ fieldset{
 footer img{
     margin-top: 10px;
     width: 40px;
+}
+
+.col{
+    display: flex;
+    flex-direction: column;
+    width: 200px;
+    margin: auto;
 }
 
 .feedback-btn{
